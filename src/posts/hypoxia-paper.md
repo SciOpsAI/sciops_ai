@@ -23,7 +23,7 @@ The developed model is based on gradient boosting and works in two stages. First
 We tested our model in a case study that included several cages across 14 fish farms. The experiments suggest that the model can detect future hypoxic events with a commercially acceptable false alarm rate. The resulting probabilistic predictions and oxygen concentration forecasts can help salmon farmers to prioritize resources, and reduce harm to crops.
 
 ```ts
-Vitor Cerqueira, 
+Vitor Cerqueira,
 João Pimentel,
 Jennie Korus,
 Francisco Bravo,

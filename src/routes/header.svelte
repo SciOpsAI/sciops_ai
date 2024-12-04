@@ -23,14 +23,18 @@
 	<nav class="navbar mx-auto py-3">
 		<div class="flex flex-col md:flex-row md:items-center md:justify-between">
 			<div class="flex items-center justify-between px-6">
-				<div>
+				<!-- <div>
 					<a
 						class="text-2xl font-bold text-gray-800 hover:text-gray-700 lg:text-3xl dark:text-white dark:hover:text-gray-300"
 						href="/">SciOps AI</a
 					>
-				</div>
+				</div> -->
 				<div class="px-9">
-					<img src="/logo.png" alt="logo" class="h-30 w-20" />
+					<a
+						class="text-2xl font-bold text-gray-800 hover:text-gray-700 lg:text-3xl dark:text-white dark:hover:text-gray-300"
+						href="/"><img src="/logo.png" alt="logo" class="h-30 w-20" /></a
+					>
+					
 				</div>
 
 

@@ -4,14 +4,14 @@
 </script>
 
 <nav
-	class="bg-silver top-0 flex flex-wrap justify-around rounded-t-lg bg-gray-800 py-3 text-white shadow-lg"
+	class="bg-silver top-0 flex flex-wrap justify-around rounded-t-lg bg-gray-800 py-3  shadow-lg" 
 >
-	<p>{config.title} &copy {new Date().getFullYear()}</p>
+	<p style="color:greenyellow">{config.title} &copy {new Date().getFullYear()}</p>
 
 	<div class="px-1">
 		<img src="/feup.png" alt="logo" class="h-30 w-20" style="border-radius: 0; object-fit: contain;" />
 	</div>
-	<p class="quote">Tomorrow's Breakthroughs, Today's Reality!</p>
+	<p class="quote" style="color:greenyellow">Tomorrow's Breakthroughs, Today's Reality!</p>
 </nav>
 
 <style>

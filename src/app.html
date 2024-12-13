@@ -9,13 +9,17 @@
     <script type="module">
       const theme = localStorage.getItem("color-scheme");
 
-      theme
-        ? document.documentElement.setAttribute("color-scheme", theme)
-        : localStorage.setItem("color-scheme", "dark");
+      // theme
+      //   ? document.documentElement.setAttribute("color-scheme", theme)
+      //   : localStorage.setItem("color-scheme", "dark");
+      // force dark mode
+      document.documentElement.setAttribute("color-scheme", "dark");
     </script>
     %sveltekit.head%
   </head>
   <body data-sveltekit-preload-data="hover">
-    <div style="display: contents">%sveltekit.body%</div>
+    <div style="font-family: var(--font-mono); display: contents">
+      %sveltekit.body%
+    </div>
   </body>
 </html>

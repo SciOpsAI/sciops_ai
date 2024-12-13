@@ -69,11 +69,11 @@
 			<div class={`${isOpen ? 'block' : 'hidden'} items-center md:flex`}>
 				<div class="flex flex-col md:mx-6 md:flex-row pl-4 md:pl-2">
 					<a
-						class="my-1 text-sm text-gray-700 hover:text-blue-500 md:mx-4 md:my-0 dark:text-gray-200 dark:hover:text-blue-400"
+						class="my-1 text-sm text-gray-700 hover:text-blue-500 md:mx-4 md:my-0 dark:text-gray-200 dark:hover:text-blue-400"style="color:greenyellow"
 						href="/blog">Blog</a
 					>
 					<a
-						class="my-1 text-sm text-gray-700 hover:text-blue-500 md:mx-4 md:my-0 dark:text-gray-200 dark:hover:text-blue-400"
+						class="my-1 text-sm text-gray-700 hover:text-blue-500 md:mx-4 md:my-0 dark:text-gray-200 dark:hover:text-blue-400"style="color:greenyellow"
 						href="/publications">Publications</a
 					>
 					<!-- <Modal show={$modal}>
@@ -83,11 +83,11 @@
 							>Schedule a Call
 						</a>
 					</Modal> -->
-					<a
+					<!-- <a
 						class="my-1 text-sm text-gray-700 hover:text-blue-500 md:mx-4 md:my-0 dark:text-gray-200 dark:hover:text-blue-400"
 					>
 						<Toggle />
-					</a>
+					</a> -->
 				</div>
 			</div>
 		</div>

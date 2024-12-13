@@ -16,7 +16,7 @@
 		</div>
 		<div class="relative mx-auto max-w-7xl">
 			<div class="text-center">
-				<h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
+				<h2 class="text-3xl font-bold tracking-tight sm:text-4xl" style="color:greenyellow">
 					Blog
 				</h2>
 				<!-- <p class="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
@@ -32,28 +32,27 @@
 							</div>
 							<div class="card flex flex-1 flex-col justify-between p-6">
 								<div class="flex-1">
-									<p class="text-sm font-medium text-indigo-600">
+									<p class="text-sm font-medium" style="color:greenyellow">
 										<a href={post.slug} class="hover:underline">Blog</a>
 									</p>
-									<a href={post.slug} class="mt-2 block">
-										<p class="text-xl font-semibold">{post.title}</p>
-										<p class="mt-3 text-base">{post.description}</p>
+									<a href={post.slug} class="mt-2 block" >
+										<p class="text-xl font-semibold"  style="color:greenyellow">{post.title}</p>
+										<p class="mt-3 text-base" style="color:green">{post.description}</p>
 									</a>
 								</div>
 								<div class="mt-6 flex items-center">
 									<!-- Author Photo-->
 									<div class="flex-shrink-0">
 										<a href="#">
-											<span class="sr-only">Roel Aufderehar</span>
 											<img class="h-10 w-10 rounded-full" src={post.author_image} alt="" />
 										</a>
 									</div>
 									<div class="ml-3">
 										<!-- Author Name -->
-										<p class="text-sm font-medium">
+										<p class="text-sm font-medium" style="color:greenyellow">
 											<a href="#" class="hover:underline">{post.author}</a>
 										</p>
-										<div class="flex space-x-1 text-sm text-gray-500">
+										<div class="flex space-x-1 text-sm" style="color:green">
 											<time>{formatDate(post.date)}</time>
 											<!-- <span aria-hidden="true">·</span> -->
 											<!-- <span>6 min read</span> -->

@@ -7,7 +7,7 @@
 html {
   /* font */
   --font-sans: "Manrope", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-mono: "IBM Plex Mono", Courier, monospace;
 
   /* dark */
   --brand-dark: var(--orange-3);

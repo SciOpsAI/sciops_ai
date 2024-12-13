@@ -23,9 +23,9 @@
 	<div class="py-40" style="background-image: url('https://awv3node-homepage.surge.sh/build/assets/stars.svg'); background-size: cover;">
 		<article>
 			<hgroup>
-				<h1>{data.meta.title}</h1>
-				<p>{data.meta.description}</p>
-				<p>Published at {formatDate(data.meta.date)}</p>
+				<h1  style="color:greenyellow">{data.meta.title}</h1>
+				<p  style="color:green">{data.meta.description}</p>
+				<p   style="color:greenyellow">Published at {formatDate(data.meta.date)}</p>
 			</hgroup>
 			<div class="prose py-20"> 
 				<svelte:component this={data.content} />

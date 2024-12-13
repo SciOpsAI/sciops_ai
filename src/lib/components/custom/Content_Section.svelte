@@ -7,10 +7,10 @@
 		>
 			<div class="lg:pr-4">
 				<div class="lg:max-w-lg">
-					<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+					<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"style="color:greenyellow">
 						SciOps AI
 					</h1>
-					<p class="mt-6 text-xl leading-8 text-gray-700">
+					<p class="mt-6 text-xl leading-8 text-gray-700" style="color:green">
 						We are excited to meet all of you! We are the SciOps AI research group!
 					</p>
 
@@ -44,18 +44,19 @@
 		<div class="pr-4">
 		  <div class="max-w-full text-base leading-7 text-gray-700">
 			
-				
+<!-- 				
 				<img
-					class="mt-1 h-5 w-5 flex-none text-indigo-600"
+					class="mt-1 h-5 w-5 flex-none"
 					src="/main_page/candlestick-chart.svg"
 					alt=""
-				/>
-				<span><strong class="font-semibold text-gray-900">Synthetic Data</strong></span>
+				/> -->
+				<span><strong class="font-semibold text-gray-900" style="color:greenyellow"
+					>Synthetic Data</strong></span>
 
 			  
 	  
 				<!-- Updated grid -->
-				<div class="grid grid-cols-2 gap-x-4 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-x-6">
+				<div class="grid grid-cols-2 gap-x-4 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-x-6"style="color:green">
 				  <figcaption class="mt-6 flex flex-col items-center justify-center space-y-3">
 					<img class="h-24 w-24 rounded-full" src="/authors/Melo.png" />
 					<div class="flex flex-col items-center divide-y-2 divide-gray-500 dark:divide-gray-700">
@@ -105,19 +106,19 @@
 
 
 			  <!-- TODO -->
-			<img
-				class="mt-1 h-5 w-5 flex-none text-indigo-600"
+			<!-- <img
+				class="mt-1 h-5 w-5 flex-none"
 				src="/main_page/candlestick-chart.svg"
 				alt=""
-			/>
-			<span><strong class="font-semibold text-gray-900">Model Robustness</strong></span>
+			/> -->
+			<span><strong class="font-semibold text-gray-900"  style="color:greenyellow">Model Robustness</strong></span>
 
 			
 	  
 			  
 	
 			<!-- Updated grid -->
-			<div class="grid grid-cols-2 gap-x-4 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-x-6">
+			<div class="grid grid-cols-2 gap-x-4 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-x-6"style="color:green">
 		
 				<figcaption class="mt-6 flex flex-col items-center justify-center space-y-3">
 					<img class="h-24 w-24 rounded-full" src="/authors/random_researcher.png" />

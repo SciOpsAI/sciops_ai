@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div
-			class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
+			class="-ml-12 -mt-12 p-12 px-2 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
 		>
 			<img
 				class="w-[48rem] max-w-none rounded-xl rounded-b-lg shadow-xl"
